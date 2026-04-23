@@ -1,7 +1,8 @@
 namespace SmartEduX.API.Controllers;
 
 [ApiController]
-[Route("api/auth")]
+[Route("api/[controller]")]
+[AllowAnonymous]
 public class AuthController : ControllerBase
 {
     private readonly IAuthService _authService;

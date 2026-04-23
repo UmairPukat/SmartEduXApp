@@ -1,4 +1,5 @@
 using SmartEduX.API.ExceptionHandling;
+using SmartEduX.API.Middleware;
 using SmartEduX.Application;
 using SmartEduX.Infrastructure;
 
@@ -10,6 +11,7 @@ builder.Services.AddProblemDetails();
 
 // Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddAuthorization();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
@@ -32,6 +34,7 @@ app.UseExceptionHandler();
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
+app.UseMiddleware<TokenClaimsMiddleware>();
 app.UseAuthorization();
 
 app.MapControllers();

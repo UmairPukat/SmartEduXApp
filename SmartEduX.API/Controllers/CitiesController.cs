@@ -2,6 +2,7 @@ namespace SmartEduX.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(Roles = AppRoles.SuperAdmin)]
 public class CitiesController : ControllerBase
 {
     private readonly ICityService _cityService;
