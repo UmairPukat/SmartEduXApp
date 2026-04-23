@@ -1,0 +1,6 @@
+@SmartEduX.API_HostAddress = http://localhost:5160
+
+GET {{SmartEduX.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

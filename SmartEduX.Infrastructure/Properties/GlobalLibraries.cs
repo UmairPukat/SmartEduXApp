@@ -1,0 +1,23 @@
+// Global usings for SmartEduX.Infrastructure — EF Core, Identity, DbContext, services, DI extensions.
+global using System.Globalization;
+global using AutoMapper;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using CommonService.Dtos;
+global using CommonService.Enums;
+global using SmartEduX.Application.Common;
+global using SmartEduX.Application.DTOs.ApplicationRoles;
+global using SmartEduX.Application.DTOs.ApplicationUsers;
+global using SmartEduX.Application.DTOs.Auth;
+global using SmartEduX.Application.DTOs.Cities;
+global using SmartEduX.Application.DTOs.Provinces;
+global using SmartEduX.Application.DTOs.Tenants;
+global using SmartEduX.Application.Interfaces.Services;
+global using SmartEduX.Infrastructure.EntitiesMapping;
+global using SmartEduX.Domain.Entities;
+global using SmartEduX.Infrastructure.Services;

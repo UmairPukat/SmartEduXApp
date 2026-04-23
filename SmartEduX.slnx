@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SmartEduX.API/SmartEduX.API.csproj" />
+  <Project Path="SmartEduX.Application/SmartEduX.Application.csproj" />
+  <Project Path="SmartEduX.Domain/SmartEduX.Domain.csproj" />
+  <Project Path="SmartEduX.Infrastructure/SmartEduX.Infrastructure.csproj" />
+  <Project Path="SmartEduX.Shared/SmartEduX.Shared.csproj" />
+</Solution>

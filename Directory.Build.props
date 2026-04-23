@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Central NuGet versions live in Directory.Packages.props (global libraries). -->
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+</Project>
